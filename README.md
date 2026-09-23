@@ -7,11 +7,13 @@ This project analyzes 30-day hospital readmission patterns among diabetic patien
 100,000+ diabetic patient encounters from multiple U.S. hospitals collected over a 10-year period
 Fields: patient demographics (race, gender, age), admission details, hospital stay metrics, prior utilization history, diagnoses, and readmission status
 Target variable: Readmission status (<30 Days, >30 Days, No Readmission)
+
 #Tools
 Python (Pandas, NumPy) — data loading, EDA, cleaning, and feature engineering
 SQL Server — analytical querying
 Tableau — dashboard development
 Gamma — presentation deck creation
+
 #Steps
 Loaded the raw dataset in Python and explored its structure
 Performed exploratory data analysis (EDA) on demographics, admissions, and utilization patterns
@@ -27,9 +29,8 @@ Loaded the cleaned data into SQL Server and ran queries to answer 8 business que
 Built an interactive Tableau dashboard to visualize readmission drivers
 Compiled key findings into a written report
 Created a summary presentation using Gamma
-Dashboard
 
-#A single-page interactive Tableau dashboard including:
+Dashboard A single-page interactive Tableau dashboard including:
 
 KPIs: Total Patients, 30-Day Readmissions, Readmission Rate, Average Length of Stay
 Visuals: Age Group vs Readmission Rate, Admission Type vs Readmission Rate, Length of Stay vs Readmission Rate, Number of Diagnoses vs Readmission Rate
@@ -41,7 +42,6 @@ Readmission rates increased with the number of diagnosed conditions
 Certain admission and discharge categories showed significantly higher readmission rates
 
 #How to Run
-
 Load the raw dataset and run the Python cleaning/feature-engineering script
 Import the cleaned dataset into SQL Server and execute the provided SQL scripts
 Connect Tableau to the SQL Server output and open the dashboard workbook (.twbx)
