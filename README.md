@@ -41,6 +41,9 @@ Higher prior healthcare utilization correlated with greater readmission risk
 Readmission rates increased with the number of diagnosed conditions
 Certain admission and discharge categories showed significantly higher readmission rates
 
+![Executive overview — KPI and category analysis](dashboard_screenshot.png)
+*Figure 1: Executive overview — KPI and category analysis*
+
 #How to Run
 Load the raw dataset and run the Python cleaning/feature-engineering script
 Import the cleaned dataset into SQL Server and execute the provided SQL scripts
